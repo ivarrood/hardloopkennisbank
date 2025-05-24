@@ -153,31 +153,6 @@ body {
     background: rgba(255,255,255,0.2);
 }
 
-.user-menu {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-lg);
-    font-weight: 500;
-}
-
-.user-avatar {
-    width: 40px;
-    height: 40px;
-    background: rgba(255,255,255,0.15);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    backdrop-filter: blur(4px);
-    transition: var(--transition-normal);
-}
-
-.user-avatar:hover {
-    transform: scale(1.05);
-    background: rgba(255,255,255,0.2);
-}
-
 /* Navigation */
 .nav-bar {
     background: var(--bg-primary);
