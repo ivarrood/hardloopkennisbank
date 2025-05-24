@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/trainingsleer/page": "app/trainingsleer/page.js",
+  "/energiesystemen/page": "app/energiesystemen/page.js",
+  "/looptechniek/page": "app/looptechniek/page.js",
+  "/training-geven/page": "app/training-geven/page.js"
+}
