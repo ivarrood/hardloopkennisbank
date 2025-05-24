@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hardloop Kennisbank van de Atletiekunie - Trainingsmethodiek, Fysiologie en meer voor hardlooptrainers">
-    <title>Hardloop Kennisbank - Atletiekunie</title>
+    <meta name="description" content="Hardloop Kennisbank - Trainingsmethodiek, Fysiologie en meer voor hardlooptrainers">
+    <title>Hardloop Kennisbank</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,24 +19,28 @@
                 <div class="logo-icon" role="img" aria-label="Hardloper icoon">🏃</div>
                 <div>
                     <h1>Hardloop Kennisbank</h1>
-                    <p style="font-size: 14px; opacity: 0.9;">Atletiekunie Nederland</p>
+
                 </div>
             </div>
-            <div class="user-menu">
-                <span>Welkom, Jan de Trainer</span>
-                <div class="user-avatar" role="img" aria-label="Gebruiker avatar">JT</div>
+            <div class="header-right">
+                <div class="search-container">
+                    <input type="text" class="search-box" placeholder="Zoek in kennisbank..." aria-label="Zoek in kennisbank">
+                    <button class="search-button" aria-label="Zoeken">🔍</button>
+                </div>
+                <div class="user-menu">
+                    <span>Welkom, Jan de Trainer</span>
+                    <div class="user-avatar" role="img" aria-label="Gebruiker avatar">JT</div>
+                </div>
             </div>
         </header>
 
         <!-- Navigation -->
         <nav class="nav-bar" aria-label="Hoofdnavigatie">
             <div class="nav-items">
-                <a href="#dashboard" class="nav-item active">Dashboard</a>
-                <a href="#trainingsmethodiek" class="nav-item">Trainingsmethodiek</a>
-                <a href="#fysiologie" class="nav-item">Fysiologie</a>
-                <a href="#biomechanica" class="nav-item">Biomechanica</a>
-                <a href="#tools" class="nav-item">Praktische Tools</a>
-                <a href="#community" class="nav-item">Community</a>
+                <a href="index.html" class="nav-item active">Home</a>
+                <a href="pages/trainingsmethodiek/index.html" class="nav-item">Trainingsmethodiek</a>
+                <a href="pages/fysiologie/index.html" class="nav-item">Fysiologie</a>
+                <a href="pages/trainingsleer/index.html" class="nav-item">Trainingsleer</a>
             </div>
         </nav>
 
@@ -44,8 +48,6 @@
         <main class="main-content">
             <!-- Sidebar -->
             <aside class="sidebar">
-                <input type="text" class="search-box" placeholder="Zoek in kennisbank..." aria-label="Zoek in kennisbank">
-                
                 <div class="category-section">
                     <h3 class="category-title">Categorieën</h3>
                     <button class="category-item">
@@ -140,7 +142,7 @@
                 <!-- Content Header -->
                 <div class="content-header">
                     <div>
-                        <div class="breadcrumb" aria-label="Kruimelpad">Dashboard > Recente Documenten</div>
+                        <div class="breadcrumb" aria-label="Kruimelpad">Home > Recente Documenten</div>
                         <h2>Meest Populaire Content</h2>
                     </div>
                     <div class="view-options" role="group" aria-label="Weergave opties">

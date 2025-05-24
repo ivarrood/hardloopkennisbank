@@ -1,6 +1,6 @@
-# Hardloop Kennisbank - Atletiekunie
+# Hardloop Kennisbank
 
-Een moderne, toegankelijke kennisbank voor hardlooptrainers van de Atletiekunie. Deze webapplicatie biedt een uitgebreide verzameling van trainingsmethodieken, fysiologische inzichten en praktische tools voor hardlooptrainers van alle niveaus.
+Een moderne, toegankelijke kennisbank voor hardlooptrainers. Deze webapplicatie biedt een uitgebreide verzameling van trainingsmethodieken, fysiologische inzichten en praktische tools voor hardlooptrainers van alle niveaus.
 
 ## Features
 
@@ -42,7 +42,7 @@ hardloopkennisbank/
 
 1. Clone de repository:
    ```bash
-   git clone https://github.com/atletiekunie/hardloopkennisbank.git
+   git clone https://github.com/hardloopkennisbank/hardloopkennisbank.git
    ```
 
 2. Open `index.html` in je browser
@@ -66,20 +66,4 @@ npx serve
 - Safari (laatste 2 versies)
 - Edge (laatste 2 versies)
 
-## Bijdragen
 
-We verwelkomen bijdragen van de community! Als je wilt bijdragen:
-
-1. Fork de repository
-2. Maak een feature branch
-3. Commit je wijzigingen
-4. Push naar de branch
-5. Open een Pull Request
-
-## Licentie
-
-Dit project is gelicenseerd onder de MIT licentie.
-
-## Contact
-
-Voor vragen of suggesties, neem contact op met het ontwikkelteam via [email@atletiekunie.nl](mailto:email@atletiekunie.nl) 
